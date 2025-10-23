@@ -1,0 +1,9 @@
+{
+	"name": "adf-rsm-2025",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "093ebb45-7d8f-4729-b1ca-c9d66ec423f8",
+		"tenantId": "1e3e71be-fcca-4284-9031-688cc8f37b6b"
+	}
+}
