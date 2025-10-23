@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-rsm-2025"
+		},
+		"ls_azuresql_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"ls_REST_properties_typeProperties_url": {
+			"value": "https://pokeapi.co/api/v2/pokemon/"
+		},
+		"ls_azuresql_properties_typeProperties_server": {
+			"value": "adf-server.database.windows.net"
+		},
+		"ls_azuresql_properties_typeProperties_database": {
+			"value": "adf-database"
+		},
+		"ls_azuresql_properties_typeProperties_userName": {
+			"value": "adf"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://storageaccountrsm2025.dfs.core.windows.net/"
+		},
+		"scheduleTrigger_properties_Scheduled_parameters_schema": {
+			"value": "source"
+		},
+		"scheduleTrigger_properties_Scheduled_parameters_table": {
+			"value": "Orders"
+		}
+	}
+}
